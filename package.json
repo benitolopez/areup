@@ -1,0 +1,22 @@
+{
+  "name": "areup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Check if the URLs in a list are up",
+  "repository": "https://github.com/benitolopez/areup.git",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint eslint.config.mjs index.js"
+  },
+  "author": "Benito Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3"
+  }
+}
